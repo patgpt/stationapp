@@ -2,6 +2,7 @@
 ----------
 ![alt](/public/logo.png) 
 
+
 ## Usage
 
 ```bash
@@ -17,5 +18,11 @@ npx create-next-app -e https://github.com/patgpt/stationapp
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
 
+
+
+## Preview Link 
+
+[Preview](https://stationapp-channel42.vercel.app)
+
 ## License
- 
+MIT 

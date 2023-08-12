@@ -44,6 +44,19 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
               <div className="flex-1">{children}</div>
+              <footer className="flex h-16 items-center justify-center text-sm text-muted-foreground">
+                <div className="flex items-center space-x-2">
+                  <span className="inline-block font-bold">
+                    {siteConfig.name}
+                  </span>
+                  <span className="inline-block">
+                    &copy; {new Date().getFullYear()}
+                  </span>
+                   <p>
+                    copyright
+                   </p> 
+                </div>
+              </footer>
             </div>
             <TailwindIndicator />
           </ThemeProvider>

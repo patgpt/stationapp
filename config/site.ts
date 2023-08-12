@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "XSpace Station",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "XSpace Station is a free and open-source web UI framework based on React.",
   mainNav: [
     {
       title: "Home",
@@ -11,8 +11,9 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/xspacehost",
+    discord: "https://discord.gg/2sV5t6V",
+    github: "https://github.com/patgpt/stationapp",
     docs: "https://ui.shadcn.com",
   },
 }

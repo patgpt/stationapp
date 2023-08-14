@@ -13,6 +13,9 @@ const nextConfig = {
   },
   experimental: {
     appDir: true,
+    swcPlugins: [
+      ['@graphql-codegen/client-preset-swc-plugin', { artifactDirectory: 'lib/graphql/**/*.graphql', gqlTagName: 'graphql' }]
+    ]
   },
   headers: headers,
   /**

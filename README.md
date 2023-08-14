@@ -6,6 +6,8 @@
 ## Usage
 
 ```bash
+
+mv .env.example .env.local
 npx create-next-app -e https://github.com/patgpt/stationapp
 ```
 

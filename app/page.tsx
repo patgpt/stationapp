@@ -32,6 +32,9 @@ export default function IndexPage() {
           Accessible and customizable components that you can copy and paste
           into your apps. Free. Open Source. And Next.js 13 Ready.
         </p>
+        <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+          Upcoming Spaces
+        </h2>
         <div className="grid gap-6 max-w-[700px]">
           {DUMMY_TEST.map((show) => (
             <div

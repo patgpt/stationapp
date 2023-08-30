@@ -1,5 +1,4 @@
 import { Card } from "./ui/card";
-
 const DUMMY_TEST = [
     {
         id: 1,
@@ -21,9 +20,10 @@ const DUMMY_TEST = [
 export default function SpacesSchedule() {
     return (
         <Card>
-            <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+            <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl p-4">
                 Upcoming Spaces
             </h2>
+
             <div className="grid gap-6 max-w-[700px]">
                 {DUMMY_TEST.map((show) => (
                     <div

@@ -1,3 +1,5 @@
+import { Card } from "./ui/card";
+
 const DUMMY_TEST = [
     {
         id: 1,
@@ -18,7 +20,7 @@ const DUMMY_TEST = [
 //TODO: Achitect API to retrieve spaces data from twitter
 export default function SpacesSchedule() {
     return (
-        <>
+        <Card>
             <h2 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
                 Upcoming Spaces
             </h2>
@@ -42,6 +44,6 @@ export default function SpacesSchedule() {
                     </div>
                 ))}
             </div>
-        </>
+        </Card>
     );
 }
